@@ -1,0 +1,12 @@
+git log
+git reset --hard HEAD~100(回退到100个版本前) HEAD^^(回退两个版本)
+git reflog 后悔药(记录每一次命令)
+
+git add 从电脑工作区提交到暂存区(只有被add以后才能提交到分支)
+git commit 从暂存区提交到分支
+
+git restore <file> 丢弃修改
+
+git remote add origin git@github.com:selfbabm/a.git 添加远程仓库 origin默认为远程库的名字
+git push -u origin master 将本地库推送到远程库上 -u 推送本地master到远程master并且关联
+git clone git@github.com:selfbabm/a.git 克隆远程库到本地
