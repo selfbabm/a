@@ -13,3 +13,11 @@ git clone git@github.com:selfbabm/a.git 克隆远程库到本地
 git checkout -b dev 新建dev分支
 git merge dev 合并dev分支到master分支上 先解决冲突在再合并
 git branch -d <name>删除本地分支
+
+bug分支
+dev1 正在工作的分支 git stash 储藏工作区
+git checkout -b bug1 gaa gcmsg "fixbug"
+git checkout master git merge bug1
+git checkout dev1 
+git stash pop 弹出储藏区并删除
+git stash apply 具体stashid
