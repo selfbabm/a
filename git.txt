@@ -10,3 +10,6 @@ git restore <file> 丢弃修改
 git remote add origin git@github.com:selfbabm/a.git 添加远程仓库 origin默认为远程库的名字
 git push -u origin master 将本地库推送到远程库上 -u 推送本地master到远程master并且关联
 git clone git@github.com:selfbabm/a.git 克隆远程库到本地
+git checkout -b dev 新建dev分支
+git merge dev 合并dev分支到master分支上
+git branch -d <name>删除本地分支
