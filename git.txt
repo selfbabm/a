@@ -21,3 +21,4 @@ git checkout master git merge bug1
 git checkout dev1 
 git stash pop 弹出储藏区并删除
 git stash apply 具体stashid
+git add 绑定数据
